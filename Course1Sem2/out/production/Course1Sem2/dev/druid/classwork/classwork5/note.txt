@@ -1,0 +1,11 @@
+Elem head = ...
+...
+// loop in linkedList looks like:
+
+for(Elem p = head; p != null; p = p.next){
+    p.value = ...
+}
+
+1. sum of elements
+2. max of elements
+3. check if two lists are equal

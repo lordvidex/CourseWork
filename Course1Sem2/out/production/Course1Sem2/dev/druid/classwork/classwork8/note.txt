@@ -1,0 +1,7 @@
+- Comparable is used for sorting natural order
+- Comparators take two parameters and compares two items of the same class
+
+# Tasks
+1. create Users class with comparators
+2. create a String comparators to correctly sort strings
+3. Comparators for Double that sort based on precision eps = 0.0001

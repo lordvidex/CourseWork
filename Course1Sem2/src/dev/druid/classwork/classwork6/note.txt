@@ -1,0 +1,17 @@
+1. add to head
+2. add to the end
+3. add on the ith position
+4,5,6, delete head,tail,position
+7. search
+
+inserting elem x after some pointer q
+    - create new elem - p
+    - set the value - p.value = x;
+    - set the p.next = q.next
+    - set the q.next = p
+inserting elem x before q
+    - create new elem - p
+    - set the value of q to the value of p
+    - set the new value to q
+    - p.next = q.next
+    - q.next = p;
