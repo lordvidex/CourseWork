@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d39631d-b85c-4815-96bf-53ade7bcac2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d39631d-b85c-4815-96bf-53ade7bcac2b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -115,7 +114,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -123,29 +122,71 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserYearComparatorTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DataAnalytics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork9.DataAnalytics" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.classwork.classwork9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleComparatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork13.Main" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.classwork.classwork13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialWall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork11.SocialWall" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.classwork.classwork11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork10.SubscriptionParser" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.classwork.classwork10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleComparatorTest.twoDoublesShouldBeEqualWhenRoundedToEpsilon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
@@ -155,101 +196,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="dev.druid.homework.homework8" />
       <option name="MAIN_CLASS_NAME" value="dev.druid.homework.homework8.DoubleComparatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleComparatorTest.twoDoubleShouldNotBeEqualIfGreaterThanEpsilon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.homework.homework8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.druid.homework.homework8" />
-      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.homework8.DoubleComparatorTest" />
-      <option name="METHOD_NAME" value="twoDoubleShouldNotBeEqualIfGreaterThanEpsilon" />
+      <option name="METHOD_NAME" value="twoDoublesShouldBeEqualWhenRoundedToEpsilon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.homework.MyLinkedList.classwork7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.druid.homework.MyLinkedList.classwork7" />
-      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.MyLinkedList.classwork7.MyLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SecondSemester" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.homework.MyLinkedList.classwork7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.druid.homework.MyLinkedList.classwork7" />
-      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.MyLinkedList.classwork7.MyLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringComparatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.homework.homework8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.druid.homework.homework8" />
-      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.homework8.StringComparatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserYearComparatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.homework.homework8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.druid.homework.homework8" />
-      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.homework8.UserYearComparatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.MyLinkedListTest" />
-      <item itemvalue="JUnit.DoubleComparatorTest" />
-      <item itemvalue="JUnit.DoubleComparatorTest.twoDoubleShouldNotBeEqualIfGreaterThanEpsilon" />
-      <item itemvalue="JUnit.StringComparatorTest" />
-      <item itemvalue="JUnit.UserYearComparatorTest" />
+      <item itemvalue="Application.DataAnalytics" />
+      <item itemvalue="Application.SubscriptionParser" />
+      <item itemvalue="Application.SocialWall" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DoubleComparatorTest.twoDoublesShouldBeEqualWhenRoundedToEpsilon" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserYearComparatorTest" />
-        <item itemvalue="JUnit.StringComparatorTest" />
-        <item itemvalue="JUnit.DoubleComparatorTest.twoDoubleShouldNotBeEqualIfGreaterThanEpsilon" />
-        <item itemvalue="JUnit.DoubleComparatorTest" />
-        <item itemvalue="JUnit.MyLinkedListTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SocialWall" />
+        <item itemvalue="Application.SubscriptionParser" />
+        <item itemvalue="Application.DataAnalytics" />
+        <item itemvalue="JUnit.DoubleComparatorTest.twoDoublesShouldBeEqualWhenRoundedToEpsilon" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +253,21 @@
       <workItem from="1615491426158" duration="954000" />
       <workItem from="1615723046407" duration="139000" />
       <workItem from="1615723193575" duration="1793000" />
+      <workItem from="1615765405361" duration="68000" />
+      <workItem from="1615806713995" duration="5042000" />
+      <workItem from="1615940547283" duration="4000" />
+      <workItem from="1615941918793" duration="3219000" />
+      <workItem from="1615985770849" duration="5200000" />
+      <workItem from="1616072014052" duration="4411000" />
+      <workItem from="1616140650715" duration="883000" />
+      <workItem from="1616268734040" duration="556000" />
+      <workItem from="1616310172557" duration="7157000" />
+      <workItem from="1616588692299" duration="1616000" />
+      <workItem from="1616676353072" duration="656000" />
+      <workItem from="1616677035128" duration="5179000" />
+      <workItem from="1616689685759" duration="670000" />
+      <workItem from="1616836778561" duration="12522000" />
+      <workItem from="1617100433432" duration="279000" />
     </task>
     <servers />
   </component>
@@ -304,5 +285,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

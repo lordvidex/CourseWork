@@ -26,5 +26,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="com.opencsv:opencsv:5.4" level="project" />
   </component>
 </module>

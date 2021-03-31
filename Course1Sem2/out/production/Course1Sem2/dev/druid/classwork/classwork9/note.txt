@@ -1,0 +1,9 @@
+1. classes
+2. read from files into list
+3. parse
+4. do queries
+
+{
+    * opencsv.jar
+    * CSVReader
+}

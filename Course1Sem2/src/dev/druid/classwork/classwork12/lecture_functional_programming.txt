@@ -1,0 +1,92 @@
+** Comparator && Comparable
+** Iterator && Iterable
+
+** Priority::
+	Minor,,Normal,Major, Critical, \Block
+	,,merge errors,a feature not working,,site is down
+
+**  PriorityQueue  | Normal queue
+	the cool one leaves first | the first one leaves first
+
+
+* Comparator in Python
+```
+	class Human: 
+		def __init__(self,age):
+			self.age = age
+		def __cmp__(self,o):
+			return self.age - o.age
+```
+
+** sorting in java
+	list = [2,3,4]
+	# anonymous comparable
+	sort(list, lambda x,y...)
+
+** Dufference in programming styles
+
+- Procedural style
+- Functional style
+** SQL is a declarative language
+ 	e.g select * from users where users.iq < 100
+
+** Functional programming steps (higher order functions)
+ - применить операцию
+ - filter по критерию
+ - вычислить функцию
+ - преобразовать по принципу
+
+functions that helps us to create higher order functions:
+- map
+- reduce
+- filter
+
+Lambda in python
+ - lambda x,y: x+y
+
+ e.g.
+ ```
+ # higher function
+ def apply(f,x):
+ 	return f(x)
+ # usage
+ print(apply(len,[1,2,3]))
+ ```
+
+** map in Python
+# function
+result_list = map(lamda x,y: x**2, [2,3,5])
+
+reduce
+ - reduces the list to a single item
+filter
+ - removes element from the list if it does not meet some certain conditions
+
+
+** Functional Programming in Java
+- functions like class + lamda
+- functions of higher order:map,reduce,filter
+_from java8 we have lamda expressions and the Stream API_
+
+In java
+ - no funcitons
+ - methods are not objects
+ - **
+
+** Lamda syntax in Java
+ (parameter) -> {}
+
+ Collections.sort(_,(s1,s2)->s1.getGroup().compareTo(s2.getGroup()));
+ - we have statement lamdas and expression lamdas
+ -> ... and -> {...;
+ 				...;
+ 			}
+
+ ** We have two classes
+  - Конвейерные {map,filter,distinct,sorted,mapToInt, mapToDouble,...} -> Stream
+  - Терминальные {findFirst, collect, forEach, reduce, ...} -> value
+ ** Optional<T>
+  - Optional.ofNullable(val);
+  - .map(...).orElse(...)
+
+

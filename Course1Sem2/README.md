@@ -16,5 +16,10 @@ _ссылка (В bitbucket): [lordvidex/owamoyo_11013](https://bitbucket.org/lo
 * Class Work 6 {LinkedList cont'd}
 * Class Work 7 {LinkedList implementing List}
 * Class Work 8 {Comparators and Comparable}
+* Class Work 9 {Parsing CSV using CSVReader}
+* Class Work 10 {Social Media {Subscriptions}}
+* Class Work 11 {Social Media -> Likes and Comments}
+* Class Work 12 {Streams and Functional Programming in Java/Python {Lecture+Lesson}}
+* Class Work 13 {Solving Tasks {Cars, CarMakers, Countries and Continents}}
 
 [https://bitbucket.org/lordvidex/owamoyo_11013/]: https://bitbucket.org/lordvidex/owamoyo_11013/
