@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d39631d-b85c-4815-96bf-53ade7bcac2b" name="Default Changelist" comment="" />
+    <list default="true" id="7d39631d-b85c-4815-96bf-53ade7bcac2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,13 +136,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="DataAnalytics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork9.DataAnalytics" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.druid.classwork.classwork9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork14.Main" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.classwork.classwork14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,18 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleComparatorTest.twoDoublesShouldBeEqualWhenRoundedToEpsilon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.homework.homework8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.druid.homework.homework8" />
-      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.homework8.DoubleComparatorTest" />
-      <option name="METHOD_NAME" value="twoDoublesShouldBeEqualWhenRoundedToEpsilon" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,15 +218,15 @@
       <item itemvalue="Application.SubscriptionParser" />
       <item itemvalue="Application.SocialWall" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.DoubleComparatorTest.twoDoublesShouldBeEqualWhenRoundedToEpsilon" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SocialWall" />
         <item itemvalue="Application.SubscriptionParser" />
         <item itemvalue="Application.DataAnalytics" />
-        <item itemvalue="JUnit.DoubleComparatorTest.twoDoublesShouldBeEqualWhenRoundedToEpsilon" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +279,9 @@
       <workItem from="1616689685759" duration="670000" />
       <workItem from="1616836778561" duration="12522000" />
       <workItem from="1617100433432" duration="279000" />
+      <workItem from="1617285337083" duration="388000" />
+      <workItem from="1617286330142" duration="52000" />
+      <workItem from="1617622053905" duration="2908000" />
     </task>
     <servers />
   </component>

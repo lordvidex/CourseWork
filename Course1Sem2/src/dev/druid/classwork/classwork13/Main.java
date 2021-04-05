@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
  */
 public class Main {
     private static final String RES_DIRECTORY = "src/dev/druid/classwork/classwork13/res/";
-    static List<CarMaker> carMakers;
+    public static List<CarMaker> carMakers;
     static HashMap<Integer, Car> cars;
     static HashMap<Integer, String> continents;
 
@@ -33,25 +33,39 @@ public class Main {
         task5();
     }
 
-    private static void task5() {
-        System.out.println("------------ Task 5 ----------------");
+    private static HashMap<CarMaker, List<Integer>> getCarMakerHP() {
         HashMap<CarMaker, List<Integer>> carMakerHP = new HashMap<>();
         for (var x : cars.entrySet()) {
             Car c = x.getValue();
             List<Integer> value = carMakerHP.computeIfAbsent(c.getCarMaker(), k -> new ArrayList<>());
             if (c.getHorsePower() != null) value.add(c.getHorsePower());
         }
+        return carMakerHP;
+    }
+
+    public static Map<CarMaker, Double> getCarMakerHPAverage() {
+        HashMap<CarMaker, List<Integer>> carMakerHP = getCarMakerHP();
+        HashMap<CarMaker, Double> averages = new HashMap<>();
+        for (var each : carMakerHP.entrySet()) {
+            double average = each.getValue().stream().mapToInt(Integer::intValue).average().getAsDouble();
+            if (each.getKey() != null)
+                averages.put(each.getKey(), average);
+        }
+        return averages;
+    }
+
+    private static void task5a() {
 
         // compute the average for all carMakerHorsePowers
         System.out.println("---------- Task 5a -------------");
         System.out.println("Average horse power per CarMakers:");
+        Map<CarMaker, Double> makerHpAverage = getCarMakerHPAverage();
+        for (var entry : makerHpAverage.entrySet())
+            System.out.printf("%24s:%f%n", entry.getKey().getFullName(), entry.getValue());
 
-        for (var each : carMakerHP.entrySet()) {
-            double average = each.getValue().stream().mapToInt(Integer::intValue).average().getAsDouble();
-            if (each.getKey() != null)
-                System.out.printf("%24s:%f%n", each.getKey().getFullName(), average);
-        }
+    }
 
+    private static void task5b() {
         System.out.println("---------- Task 5b -------------");
         System.out.println("Average horse power per CarModel:");
 
@@ -68,6 +82,12 @@ public class Main {
             double average = each.getValue().stream().mapToInt(Integer::intValue).average().getAsDouble();
             System.out.printf("%15s:%f%n", each.getKey(), average);
         }
+    }
+
+    private static void task5() {
+        System.out.println("------------ Task 5 ----------------");
+        task5a();
+        task5b();
     }
 
     private static void task4() {
@@ -87,7 +107,7 @@ public class Main {
                 .stream()
                 .map(Car::getCarMaker).filter(Objects::nonNull)
                 .collect(Collectors.toSet());
-        System.out.println("The Car Makers that manufactured cars before "+OLD_CAR_YEAR+" are: ");
+        System.out.println("The Car Makers that manufactured cars before " + OLD_CAR_YEAR + " are: ");
         carMakers.forEach(System.out::println);
     }
 
@@ -145,7 +165,7 @@ public class Main {
                 " car makers");
     }
 
-    private static void readFiles() {
+    public static void readFiles() {
         // load continents
         continents = new HashMap<>();
         loadContinents(RES_DIRECTORY + "continents.csv");

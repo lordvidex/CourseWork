@@ -21,5 +21,6 @@ _ссылка (В bitbucket): [lordvidex/owamoyo_11013](https://bitbucket.org/lo
 * Class Work 11 {Social Media -> Likes and Comments}
 * Class Work 12 {Streams and Functional Programming in Java/Python {Lecture+Lesson}}
 * Class Work 13 {Solving Tasks {Cars, CarMakers, Countries and Continents}}
+* Class Work 14 {Maps}
 
 [https://bitbucket.org/lordvidex/owamoyo_11013/]: https://bitbucket.org/lordvidex/owamoyo_11013/
