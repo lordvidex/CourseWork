@@ -1,0 +1,3 @@
+1. Create file with n random bytes
+2. Method to copy (file1 -> file2)
+3. URL and URLConnection -> download(url : String, name)

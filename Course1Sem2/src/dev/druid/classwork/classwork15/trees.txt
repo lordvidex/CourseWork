@@ -1,0 +1,45 @@
+n - size of input
+
+
+logarythmic complexity:
+
+number of steps = O(log(n)) - binary
+
+linear complexity:
+
+number of steps = O(n)
+
+
+size of full binary tree with n levels = 2^n - 1
+
+
+binary tree - set of nodes
+
+node has left and rigth sons
+
+elem { T value, Elem<T> next }
+Node { T value, Node<T> left, right}
+
+
+
+Balanced Tree:
+	for every node:
+		|size(left) - size(right)| <= 1
+
+
+1
+1.1
+1.2
+1.2.1
+1.2.1
+
+
+
+
+
+
+
+
+
+
+

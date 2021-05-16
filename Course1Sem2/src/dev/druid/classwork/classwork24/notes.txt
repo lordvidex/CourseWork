@@ -1,0 +1,30 @@
+@interface MyAnnotation {}
+
+-----------------
+
+@MyAnnotation()
+class MyVector {}
+
+- we can get annotations with
+Class c = Class.forName('...');
+c.getAnnotations();
+
+OR
+
+Method[] ms = c.getMethods();
+for(Method m: ms){
+    m.getAnnotations()
+}
+
+--
+o instanceof c
+
+#####################################
+
+#####################################
+2)
+Reflection
+
+Tasks:
+1) DB
+2) create Author annotation

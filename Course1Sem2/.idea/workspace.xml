@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d39631d-b85c-4815-96bf-53ade7bcac2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -128,21 +127,38 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dev/druid/homework/homework23" />
+      <recent name="$PROJECT_DIR$/src/dev/druid/classwork/classwork15" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="DataAnalytics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork9.DataAnalytics" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork24.App" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork9.*" />
+          <option name="PATTERN" value="dev.druid.classwork.classwork24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloaderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.DownloaderMain" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +167,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork14.Main" />
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork25.Main" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork14.*" />
+          <option name="PATTERN" value="dev.druid.classwork.classwork25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork13.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork22.Main" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork13.*" />
+          <option name="PATTERN" value="dev.druid.classwork.classwork22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,25 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialWall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork11.SocialWall" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork24.Main" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubscriptionParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork10.SubscriptionParser" />
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork10.*" />
+          <option name="PATTERN" value="dev.druid.classwork.classwork24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,19 +217,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DataAnalytics" />
-      <item itemvalue="Application.SubscriptionParser" />
-      <item itemvalue="Application.SocialWall" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.DownloaderMain" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SocialWall" />
-        <item itemvalue="Application.SubscriptionParser" />
-        <item itemvalue="Application.DataAnalytics" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.DownloaderMain" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +284,17 @@
       <workItem from="1617100433432" duration="279000" />
       <workItem from="1617285337083" duration="388000" />
       <workItem from="1617286330142" duration="52000" />
-      <workItem from="1617622053905" duration="2908000" />
+      <workItem from="1617622053905" duration="3410000" />
+      <workItem from="1617793082526" duration="6927000" />
+      <workItem from="1619008204765" duration="3329000" />
+      <workItem from="1619096675789" duration="8651000" />
+      <workItem from="1619437196314" duration="12227000" />
+      <workItem from="1619655363174" duration="633000" />
+      <workItem from="1619704450842" duration="549000" />
+      <workItem from="1619778133984" duration="1268000" />
+      <workItem from="1619799458524" duration="3394000" />
+      <workItem from="1620191269222" duration="2230000" />
+      <workItem from="1620824130668" duration="14252000" />
     </task>
     <servers />
   </component>
@@ -307,10 +320,39 @@
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="6" />
-        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork20/ColoredVertex.java</url>
+          <line>55</line>
+          <properties class="dev.druid.classwork.classwork20.ColoredVertex" method="recursivePaint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork20/ColoredVertex.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork20/ColoredVertex.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork25/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork25/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork25/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

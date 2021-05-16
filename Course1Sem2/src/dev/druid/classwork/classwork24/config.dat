@@ -1,0 +1,3 @@
+db=dev.druid.classwork.classwork24.DBStaging
+log=true
+apiKey=12345678

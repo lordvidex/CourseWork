@@ -1,0 +1,14 @@
+Expression trees can be used for evaluation of arithmetics
+
+* post fix ЛПК
+* pre fix КЛП
+
+eval (t) = { eval (t.left) op eval(t.right)
+           { t.value, if number
+
+1. Create Expression Tree: value -> String
+ - eval(t)
+
+2. Write post fix expression
+
+3. Evaluate postfix record

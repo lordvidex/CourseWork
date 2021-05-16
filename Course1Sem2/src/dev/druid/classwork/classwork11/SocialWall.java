@@ -53,7 +53,7 @@ public class SocialWall {
     }
 
     private static void task1() {
-        Set<User> xenophobes = getXenoPhones();
+        Set<User> xenophobes = getXenophobes();
         System.out.println("Below are the users that liked posts of people from their country: ");
         for(User user: xenophobes){
             System.out.println("\t ->"+user);
@@ -69,7 +69,7 @@ public class SocialWall {
         }
     }
 
-    private static Set<User> getXenoPhones() {
+    private static Set<User> getXenophobes() {
         HashSet<User> users = new HashSet<>();
         // add all the likers from all posts
         for (Map.Entry<String, Post> postEntry : posts.entrySet()) {

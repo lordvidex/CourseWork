@@ -22,5 +22,12 @@ _ссылка (В bitbucket): [lordvidex/owamoyo_11013](https://bitbucket.org/lo
 * Class Work 12 {Streams and Functional Programming in Java/Python {Lecture+Lesson}}
 * Class Work 13 {Solving Tasks {Cars, CarMakers, Countries and Continents}}
 * Class Work 14 {Maps}
-
+* Class Work 15 {Trees, Graphs, intro}
+* Class Work 16 {Solution to questions, DFS, BFS, ЛКП} 
+* Class Work 17 {Search Trees} 
+* Class Work 18 {Expression Trees}
+* Class Work 19 {Graphs, Adjacency Matrix, Adjacency List and BFS/DFS Transversals}
+* Class Work 20 {Coloring Graphs}
+* Class Work 21 {InputStream and OutputStream}
+* Class Work 22 {InputStreamReaders and OutputStreamWriters}
 [https://bitbucket.org/lordvidex/owamoyo_11013/]: https://bitbucket.org/lordvidex/owamoyo_11013/
