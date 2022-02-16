@@ -30,4 +30,10 @@ _ссылка (В bitbucket): [lordvidex/owamoyo_11013](https://bitbucket.org/lo
 * Class Work 20 {Coloring Graphs}
 * Class Work 21 {InputStream and OutputStream}
 * Class Work 22 {InputStreamReaders and OutputStreamWriters}
-[https://bitbucket.org/lordvidex/owamoyo_11013/]: https://bitbucket.org/lordvidex/owamoyo_11013/
+* Homework 26 {Greedy algorithm & memoization}
+* Class Work 27 {Dynamic Programming}
+* Homework dp {10 questions from acmp.ru on Dynamic programming}
+* Homework greedy {10 questions from acmp.ru on Greedy algorithm}
+
+* Informatics Test {src/InformaticsTest} package
+[https://bitbucket.org/lordvidex/owamoyo_11013/](https://bitbucket.org/lordvidex/owamoyo_11013/)

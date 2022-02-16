@@ -1,0 +1,3 @@
+1.  1a. fib without memoization
+    1b. fib with memoization measure time
+2. a = {1,2,5} money system

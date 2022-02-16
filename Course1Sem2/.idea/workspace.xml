@@ -115,6 +115,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="ignore.preview.features.used" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dev/druid/classwork/classwork13/src" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -135,43 +136,18 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/InformaticsTest" />
       <recent name="$PROJECT_DIR$/src/dev/druid/homework/homework23" />
       <recent name="$PROJECT_DIR$/src/dev/druid/classwork/classwork15" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork24.App" />
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownloaderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.DownloaderMain" />
-      <module name="Course1Sem2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.druid.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q7">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork25.Main" />
+      <option name="MAIN_CLASS_NAME" value="InformaticsTest1_2.Main" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork25.*" />
+          <option name="PATTERN" value="InformaticsTest1_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork22.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InformaticsTest2.Main" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork22.*" />
+          <option name="PATTERN" value="InformaticsTest2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.druid.classwork.classwork24.Main" />
+    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.dp.Q5" />
       <module name="Course1Sem2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.druid.classwork.classwork24.*" />
+          <option name="PATTERN" value="dev.druid.homework.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,31 +181,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.greedy.Q6" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.homework.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.druid.homework.dp.Q7" />
+      <module name="Course1Sem2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.druid.homework.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.DownloaderMain" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Q5" />
+      <item itemvalue="Application.Q6" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Q7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q7" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.DownloaderMain" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Q6" />
+        <item itemvalue="Application.Q5" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +298,19 @@
       <workItem from="1619778133984" duration="1268000" />
       <workItem from="1619799458524" duration="3394000" />
       <workItem from="1620191269222" duration="2230000" />
-      <workItem from="1620824130668" duration="14252000" />
+      <workItem from="1620824130668" duration="14566000" />
+      <workItem from="1621253220052" duration="2236000" />
+      <workItem from="1621435412406" duration="524000" />
+      <workItem from="1621856102767" duration="2926000" />
+      <workItem from="1622023450340" duration="427000" />
+      <workItem from="1622117616863" duration="6248000" />
+      <workItem from="1622135620448" duration="6905000" />
+      <workItem from="1622298816524" duration="6299000" />
+      <workItem from="1622489618792" duration="3840000" />
+      <workItem from="1622624205251" duration="4882000" />
+      <workItem from="1622725082390" duration="4436000" />
+      <workItem from="1623065712057" duration="6910000" />
+      <workItem from="1623078751730" duration="5071000" />
     </task>
     <servers />
   </component>
@@ -337,21 +353,6 @@
           <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork20/ColoredVertex.java</url>
           <line>71</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork25/Main.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork25/Main.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dev/druid/classwork/classwork25/Main.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

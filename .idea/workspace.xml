@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcbe4d4d-88d8-4fba-8e85-64de21f9dcec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Course1Sem1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CourseWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CourseWork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Course1Sem2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Course1Sem2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course1Sem2/src/dev/druid/classwork/classwork15/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Course1Sem2/src/dev/druid/classwork/classwork15/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course1Sem2/src/dev/druid/classwork/classwork15/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Course1Sem2/src/dev/druid/classwork/classwork15/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Course1Sem2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rTcZRAhms3qfx7O1of4kyDXSrK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,6 +26,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619003574632</updated>
       <workItem from="1619003575981" duration="24000" />
+      <workItem from="1621136270413" duration="106000" />
     </task>
     <servers />
   </component>
