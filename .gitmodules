@@ -1,3 +1,6 @@
 [submodule "statistics"]
 	path = statistics
 	url = https://github.com/lordvidex/statistics
+[submodule "ros_src"]
+	path = ros_src
+	url = git@github.com:lordvidex/ros_src.git
